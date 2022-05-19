@@ -44,12 +44,37 @@ class Food {
           hightLight: true),
       Food(
         'assets/images/dish2.png',
-        'No1. in Sales',
-        'Soba Soup',
+        'Low Fat',
+        'Sai Ua Sanum Phrai',
         '50 min',
         4.8,
         '325 kcal',
-        12,
+        18,
+        1,
+        [
+          {
+            'Noodle': 'assets/images/ingre1.png',
+          },
+          {
+            'Shrimp': 'assets/images/ingre2.png',
+          },
+          {
+            'Egg': 'assets/images/ingre3.png',
+          },
+          {
+            'Scallion': 'assets/images/ingre4.png',
+          },
+        ],
+        'Simply put, ramen is a Japanese noodle soup',
+      ),
+      Food(
+        'assets/images/dish3.png',
+        'Highly recommended',
+        'Ratatouille pasta',
+        '50 min',
+        4.8,
+        '325 kcal',
+        17,
         1,
         [
           {
@@ -74,8 +99,8 @@ class Food {
     return [
       Food(
           'assets/images/dish3.png',
-          'No1. in Sales',
-          'Soba Soup',
+          'Highly recommended',
+          'Ratatouille pasta',
           '50 min',
           4.8,
           '325 kcal',
@@ -99,12 +124,12 @@ class Food {
           hightLight: true),
       Food(
           'assets/images/dish4.png',
-          'No1. in Sales',
-          'Soba Soup',
+          'Most Popular',
+          'Tomato Checken',
           '50 min',
           4.8,
           '325 kcal',
-          12,
+          14.5,
           1,
           [
             {
@@ -120,8 +145,7 @@ class Food {
               'Scallion': 'assets/images/ingre4.png',
             },
           ],
-          'Simply put, ramen is a Japanese noodle soup',
-          hightLight: true),
+          'Simply put, ramen is a Japanese noodle soup',),
     ];
   }
 }
