@@ -40,7 +40,7 @@ class Food {
               'Scallion': 'assets/images/ingre4.png',
             },
           ],
-          'Simply put, ramen is a Japanese noodle soup',
+          'Simply put, ramen is a Japanese noodle soup, with a combination of a rich flavoured broth',
           hightLight: true),
       Food(
         'assets/images/dish2.png',
@@ -65,7 +65,7 @@ class Food {
             'Scallion': 'assets/images/ingre4.png',
           },
         ],
-        'Simply put, ramen is a Japanese noodle soup',
+        'Simply put, ramen is a Japanese noodle soup, with a combination of a rich flavoured broth',
       ),
       Food(
         'assets/images/dish3.png',
@@ -90,7 +90,7 @@ class Food {
             'Scallion': 'assets/images/ingre4.png',
           },
         ],
-        'Simply put, ramen is a Japanese noodle soup',
+        'Simply put, ramen is a Japanese noodle soup, with a combination of a rich flavoured broth, Simply put, ramen is a Japanese noodle soup, with a combination of a rich flavoured broth',
       ),
     ];
   }
@@ -120,32 +120,33 @@ class Food {
               'Scallion': 'assets/images/ingre4.png',
             },
           ],
-          'Simply put, ramen is a Japanese noodle soup',
+          'Simply put, ramen is a Japanese noodle soup, with a combination of a rich flavoured broth',
           hightLight: true),
       Food(
-          'assets/images/dish4.png',
-          'Most Popular',
-          'Tomato Checken',
-          '50 min',
-          4.8,
-          '325 kcal',
-          14.5,
-          1,
-          [
-            {
-              'Noodle': 'assets/images/ingre1.png',
-            },
-            {
-              'Shrimp': 'assets/images/ingre2.png',
-            },
-            {
-              'Egg': 'assets/images/ingre3.png',
-            },
-            {
-              'Scallion': 'assets/images/ingre4.png',
-            },
-          ],
-          'Simply put, ramen is a Japanese noodle soup',),
+        'assets/images/dish4.png',
+        'Most Popular',
+        'Tomato Checken',
+        '50 min',
+        4.8,
+        '325 kcal',
+        14.5,
+        1,
+        [
+          {
+            'Noodle': 'assets/images/ingre1.png',
+          },
+          {
+            'Shrimp': 'assets/images/ingre2.png',
+          },
+          {
+            'Egg': 'assets/images/ingre3.png',
+          },
+          {
+            'Scallion': 'assets/images/ingre4.png',
+          },
+        ],
+        'Simply put, ramen is a Japanese noodle soup, with a combination of a rich flavoured broth',
+      ),
     ];
   }
 }
